@@ -45,6 +45,7 @@ Alongside this applied work, I maintain an active research portfolio spanning **
 |---|---|---|
 | [**solar-pv-mcda-bangladesh**](https://github.com/Naimul-islam-bd/solar-pv-mcda-bangladesh) | Open-source Multi-Criteria Decision Analysis framework for climate-resilient utility-scale solar PV siting. Two-scenario (1 km / 3 km buffer) identification of flood-free, cyclone-safe, grid-accessible sites. | `geopandas` `shapely` `rasterio` |
 | [**salinity-dynamics-bangladesh-2050**](https://github.com/Naimul-islam-bd/salinity-dynamics-bangladesh-2050) | 26-year Landsat NDSI reconstruction with cyclone-event attribution and Random Forest projection of soil salinity through 2050 across Khulna–Satkhira–Bagerhat. ICSD 2026 (under review). | `gee` `scikit-learn` `geopandas` |
+| [drinking-water-quality-lstm](https://github.com/Naimul-islam-bd/drinking-water-quality-lstm) | LSTM forecast of Cedar River source-water turbidity (USGS NWIS), benchmarked honestly against persistence / climatology / seasonal-naive. LSTM wins on turbidity (NSE 0.31 vs 0.06). | PyTorch · USGS NWIS · NSE/KGE |
 > Additional repositories from my publication pipeline (salinity dynamics 2000–2050, compound flood risk, physics-constrained flood transformer, anticipatory action) are being prepared for release.
 
 ## Publications & Manuscripts
