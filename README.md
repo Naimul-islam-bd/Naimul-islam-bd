@@ -73,7 +73,7 @@ Additional repositories from the publication pipeline (PFAS-UCMR5 detection mode
 
 Available for time-boxed consultancy engagements across Bangladesh and South Asia in:
 
-- Water-infrastructure feasibility studies, design and commissioning support (reverse-osmosis, sea-water desalination, solar-powered community water systems, ETP, STP, iron and arsenic removal)
+- Water-infrastructure feasibility studies, design and commissioning support (reverse-osmosis, sea-water desalination, solar-powered community water systems, iron and arsenic removal)
 - Tender preparation, technical specifications, Bills of Quantities and cost estimates for government and international-organisation contracts
 - WASH programme design, inception-stage fieldwork, geo-tagged asset inventory, demand and willingness-to-pay surveys, water-quality testing to WHO limits
 - Geospatial multi-criteria decision analysis for infrastructure siting under climate and flood risk (Python, GeoPandas, Google Earth Engine)
@@ -83,7 +83,7 @@ Available for time-boxed consultancy engagements across Bangladesh and South Asi
 
 ## Currently
 
-- Delivering the BRAC × Tetra three-year coastal water programme across Khulna, Satkhira, Bagerhat, Barguna, Pirojpur and Patuakhali, alongside a competitive tender portfolio above BDT 300 crore with government (DPHE, LGED) and international-organisation (UNICEF, WHH, BRAC, WaterAid) clients
+- Delivering the BRAC × Tetra three-year coastal water programme across Khulna, Satkhira, Bagerhat, alongside a competitive tender portfolio above BDT 300 crore with government (DPHE, LGED) and international-organisation (UNICEF, WHH, BRAC) clients
 - Modelling PFAS detection across 24,636 U.S. public water-system locations with XGBoost under spatial-block and PWS-grouped cross-validation (UCMR5 working draft under internal review)
 - Finalising the 2050 salinity-projection manuscript for ICSD 2026 (26-year Landsat time-series, Random Forest, late-monsoon anomaly detection)
 - Drafting the last-mile anticipatory-action manuscript for the BMD and Save the Children 2026 conference (CHIRPS 1981 to 2024 pre-monsoon rainfall trend analysis)
