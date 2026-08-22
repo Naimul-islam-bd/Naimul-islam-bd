@@ -48,8 +48,8 @@ Additional repositories from the publication pipeline (PFAS-UCMR5 detection mode
 
 | # | Title | Target | Status |
 |---|-------|--------|--------|
-| 2 | Spatiotemporal Salinity Dynamics in Southwest Bangladesh (2000 to 2026): Cyclone Impacts, Seasonal Anomalies, and Random Forest Projections for Delta Governance | 8th International Conference on Sustainable Development (ICSD 2026), Dhaka | Finalising manuscript |
-| 3 | Closing the Last-Mile Gap: Strengthening Community-Based Anticipatory Action for Flash Floods in Climate-Vulnerable Districts of Bangladesh | BMD and Save the Children National Conference on Weather, Climate Services and Anticipatory Action 2026 | Drafting |
+| 2 | Spatiotemporal Salinity Dynamics in Southwest Bangladesh (2000 to 2026): Cyclone Impacts, Seasonal Anomalies, and Random Forest Projections for Delta Governance | Journal submission pending | Finalising manuscript |
+| 3 | Closing the Last-Mile Gap: Strengthening Community-Based Anticipatory Action for Flash Floods in Climate-Vulnerable Districts of Bangladesh | Journal submission pending | Drafting |
 | 4 | Geospatial Optimization of Climate-Resilient Solar Power Siting in Bangladesh: A Multi-Criteria Decision Analysis using Python | Journal submission pending | Preparing for submission |
 | 5 | PFAS Detection in U.S. Drinking Water: A National Analysis of 24,636 Public Water Systems Using XGBoost with Spatial-Block Cross-Validation | Journal submission pending | Internal review draft |
 | 6 | Future Compound Flood Risk Under Climate Change: A Global-Scale Assessment Integrating Triple Drivers Using Machine Learning | Natural Hazards and Earth System Sciences (NHESS) | Data collection |
@@ -67,7 +67,7 @@ Additional repositories from the publication pipeline (PFAS-UCMR5 detection mode
 
 **Climate Data:** CMIP6, ERA5, CHIRPS, GloFAS, GTSR
 
-**Water Engineering:** Reverse Osmosis (brackish and sea-water), ETP, STP, iron and arsenic removal, solar-powered water systems, IoT water ATMs
+**Water Engineering:** Reverse Osmosis (brackish and sea-water), iron and arsenic removal, solar-powered water systems, IoT water ATMs
 
 ## Consultancy Scope
 
