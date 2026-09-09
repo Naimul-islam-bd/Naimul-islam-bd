@@ -1,119 +1,263 @@
 # Naimul Islam
 
-**Civil and Water Resources Engineer · Coastal WASH Delivery · Hydrological ML and Geospatial Research**
+**Civil & Water Resources Engineer | Hydrology, Water Quality & Climate Risk**
 
 Dhaka, Bangladesh
 
-[LinkedIn](https://www.linkedin.com/in/naimul-islam-bd) · [Email](mailto:naimul.islam.bangladesh@gmail.com) · Open to graduate research positions, consultancy engagements and research collaborations
+[LinkedIn](https://www.linkedin.com/in/naimul-islam-bd) · [Email](mailto:naimul.islam.bangladesh@gmail.com) · [ORCID](https://orcid.org/0009-0002-3442-8980)
+
+I work on water and environmental problems where field observations, geospatial data, and computational modelling can help answer practical questions.
+
+My research interests sit around **hydrologic extremes, water quality, coastal salinity, climate risk, remote sensing, and machine learning for water resources**. I am particularly interested in research that does not stop at prediction, but asks whether a model is reliable in space and time, whether it generalises to unseen events, and whether its output can support a real decision.
+
+I am currently preparing for **PhD and research-assistant opportunities** in hydrology, water resources, environmental engineering, climate risk, and environmental data science.
 
 ---
 
-## About
+## What I am trying to understand
 
-I am a Civil and Water Resources Engineer at Tetra Private Limited, delivering coastal water infrastructure and WASH services across six climate-vulnerable districts of southern Bangladesh (Khulna, Satkhira, Bagerhat) under IAP, Welthungerhilfe / German Humanitarian Assistance, BRAC, Aqua for All and IRC WASH programming. In 2025 I delivered the solar-powered community reverse-osmosis plant at Kulia, Debhata, Satkhira (BDT 36,94,372) single-handed from tender award through RCC civil works, a 7,020 W on-grid solar array, and a 1,500 GPD RO train on a 150 m deep tubewell, to two-year-warranty handover, and now prepare government and international-organisation tenders representing a bid portfolio above BDT 300 crore.
+My work has gradually moved toward one broad question:
 
-The other half of my week is research code. My portfolio spans spatiotemporal salinity dynamics for the Bay of Bengal delta, PFAS detection modelling on the U.S. EPA UCMR5 dataset (24,636 public water systems, 29 analytes, XGBoost under spatial-block cross-validation), physics-constrained transformer architectures for extreme flood peaks, compound flood-risk analysis under CMIP6 scenarios, geospatial multi-criteria analysis for climate-resilient solar siting, and community-based anticipatory action for last-mile early warning. I am available for graduate research positions (PhD, MASc), consultancy engagements, and research collaborations where hydrological machine learning, drinking-water source-quality forecasting, and climate-resilient water infrastructure can be drawn together, translating climate-model uncertainty into actionable infrastructure decisions for utility operators and resilience planners.
+> **How can we use environmental observations and machine learning to make better decisions under hydrologic and climate uncertainty?**
 
-## Research Interests
+I approach this from several connected directions:
 
-- Climate-resilient water infrastructure in deltaic and coastal-vulnerable contexts
-- Hydrological machine learning: transformer architectures, physics-informed neural networks, extreme-event prediction
-- Drinking-water source-quality forecasting and PFAS occurrence modelling (U.S. EPA UCMR5)
-- Compound flood risk and multi-driver hazard analysis under CMIP6 SSP2-4.5 / SSP5-8.5 scenarios
-- Satellite remote sensing: Landsat, Sentinel-1 SAR, NDSI, LULC change detection
-- Community-based anticipatory action and last-mile early-warning for humanitarian WASH
-- Geospatial multi-criteria analysis for renewable energy siting and adaptation planning
+- **Hydrologic extremes:** rainfall thresholds, flash-flood forecasting, extreme-event prediction, and early warning
+- **Water quality:** drinking-water source forecasting and PFAS occurrence modelling
+- **Coastal systems:** salinity dynamics, cyclone impacts, and long-term environmental change in the Ganges-Brahmaputra-Meghna delta
+- **Climate-resilient infrastructure:** spatial planning of water and energy infrastructure under hazard constraints
+- **Remote sensing:** Landsat, Sentinel-1 SAR, Google Earth Engine, and spatial environmental analysis
+- **Hydrologic machine learning:** Random Forest, XGBoost, LSTM, and ongoing work toward physics-constrained Transformer models
+- **Decision support:** translating environmental predictions into thresholds, screening priorities, and infrastructure decisions
 
-## Featured Repositories
-
-| Repository | Description | Stack |
-|------------|-------------|-------|
-| [**solar-pv-mcda-bangladesh**](https://github.com/Naimul-islam-bd/solar-pv-mcda-bangladesh) | Open-source Multi-Criteria Decision Analysis framework for climate-resilient utility-scale solar-PV siting. Two-scenario (1 km / 3 km buffer) identification of flood-free, cyclone-safe, grid-accessible sites: 688 premium and 6,777 candidate sites. | `geopandas` `shapely` `rasterio` |
-| [**salinity-dynamics-bangladesh-2050**](https://github.com/Naimul-islam-bd/salinity-dynamics-bangladesh-2050) | 26-year Landsat NDSI reconstruction (667 scenes) with cyclone-event attribution and Random Forest projection of soil salinity through 2050 across Khulna, Satkhira and Bagerhat (R² = 0.496, +20.8% by 2050). Manuscript in preparation. | `gee` `scikit-learn` `geopandas` |
-| [**pc-former-flood-forecasting**](https://github.com/Naimul-islam-bd/pc-former-flood-forecasting) | Physics-Constrained Transformer for extreme flood peak forecasting across CONUS. Benchmarked against CAMELS-US (671 basins) and CAMELSH (3,166 basins hourly). Target: Water Resources Research / Nature Water. | `PyTorch` `CAMELS` `NSE/KGE` |
-| [**drinking-water-quality-lstm**](https://github.com/Naimul-islam-bd/drinking-water-quality-lstm) | LSTM forecast of Cedar River source-water turbidity (USGS NWIS), benchmarked honestly against persistence, climatology and seasonal-naive baselines. LSTM wins on turbidity (NSE 0.31 vs 0.06). | `PyTorch` `USGS NWIS` `NSE/KGE` |
-| [**token-efficiency**](https://github.com/Naimul-islam-bd/token-efficiency) | A Claude skill that cuts token waste: lean replies, smart file reading, zero redundant work. | `Claude` `Anthropic` |
-
-Additional repositories from the publication pipeline (PFAS-UCMR5 detection modelling, compound flood risk, community-based anticipatory action) are being prepared for release.
-
-## Publications and Manuscripts
-
-### Peer-reviewed conference publications
-
-| # | Title | Venue | Year | Status |
-|---|-------|-------|------|--------|
-| 1 | Estimation of Changes in Ecosystem Service Values for a Mega Project of Nuclear Power Plant in Bangladesh | 9th International Conference on Water and Flood Management (ICWFM), BUET | 2023 | Published |
-
-### Manuscripts in preparation
-
-| # | Title | Target | Status |
-|---|-------|--------|--------|
-| 2 | Spatiotemporal Salinity Dynamics in Southwest Bangladesh (2000 to 2026): Cyclone Impacts, Seasonal Anomalies, and Random Forest Projections for Delta Governance | Journal submission pending | Finalising manuscript |
-| 3 | Closing the Last-Mile Gap: Strengthening Community-Based Anticipatory Action for Flash Floods in Climate-Vulnerable Districts of Bangladesh | Journal submission pending | Drafting |
-| 4 | Geospatial Optimization of Climate-Resilient Solar Power Siting in Bangladesh: A Multi-Criteria Decision Analysis using Python | Journal submission pending | Preparing for submission |
-| 5 | PFAS Detection in U.S. Drinking Water: A National Analysis of 24,636 Public Water Systems Using XGBoost with Spatial-Block Cross-Validation | Science of the Total Environment | Under Review|
-| 6 | Future Compound Flood Risk Under Climate Change: A Global-Scale Assessment Integrating Triple Drivers Using Machine Learning | Natural Hazards and Earth System Sciences (NHESS) | Data collection |
-| 7 | Physics-Constrained Transformer Architecture for Extreme Flood Peak Prediction: Breaking the Extrapolation Barrier in Data-Driven Hydrology | Water Resources Research / Nature Water | Data preparation |
-
-## Technical Stack
-
-**Programming and Data Science:** Python, NumPy, pandas, SciPy, xarray, Jupyter, R
-
-**Hydrological Machine Learning:** PyTorch, scikit-learn, XGBoost, LSTM, Transformer, Physics-Informed Neural Networks, CAMELS-US, CAMELSH
-
-**Geospatial and Remote Sensing:** GeoPandas, Rasterio, Shapely, Google Earth Engine, QGIS, ArcGIS
-
-**Hydrological and Hydrodynamic Modelling:** MIKE 21 FM (DHI-certified), TUFLOW, HEC-HMS, Aquaveo SMS
-
-**Climate Data:** CMIP6, ERA5, CHIRPS, GloFAS, GTSR
-
-**Water Engineering:** Reverse Osmosis (brackish and sea-water), iron and arsenic removal, solar-powered water systems, IoT water ATMs
-
-## Consultancy Scope
-
-Available for time-boxed consultancy engagements across Bangladesh and South Asia in:
-
-- Water-infrastructure feasibility studies, design and commissioning support (reverse-osmosis, sea-water desalination, solar-powered community water systems, iron and arsenic removal)
-- Tender preparation, technical specifications, Bills of Quantities and cost estimates for government and international-organisation contracts
-- WASH programme design, inception-stage fieldwork, geo-tagged asset inventory, demand and willingness-to-pay surveys, water-quality testing to WHO limits
-- Geospatial multi-criteria decision analysis for infrastructure siting under climate and flood risk (Python, GeoPandas, Google Earth Engine)
-- Salinity and drinking-water-quality forecasting using Random Forest, LSTM and gradient-boosted models
-- Ecosystem-service valuation and environmental impact assessment for large-infrastructure projects
-- Donor-compliance and MEAL support under IAP, Welthungerhilfe, BRAC and UNICEF frameworks
-
-## Currently
-
-- Delivering the BRAC × Tetra three-year coastal water programme across Khulna, Satkhira, Bagerhat, alongside a competitive tender portfolio above BDT 300 crore with government (DPHE, LGED) and international-organisation (UNICEF, WHH, BRAC) clients
-- Modelling PFAS detection across 24,636 U.S. public water-system locations with XGBoost under spatial-block and PWS-grouped cross-validation (UCMR5 working draft under internal review)
-- Finalising the 2050 salinity-projection manuscript for ICSD 2026 (26-year Landsat time-series, Random Forest, late-monsoon anomaly detection)
-- Drafting the last-mile anticipatory-action manuscript for the BMD and Save the Children 2026 conference (CHIRPS 1981 to 2024 pre-monsoon rainfall trend analysis)
-- Preparing the global compound-flood-risk dataset (12.2 GB ERA5 1981 to 2019 plus GloFAS and GTSR ingestion pipeline, headed for NHESS)
-- Drafting the Physics-Constrained Transformer benchmark against CAMELS-US (671 basins) and CAMELSH (3,166 basins hourly)
-- Building the 3ZERO Club / 3Z Global Centre youth platform under Nobel Laureate Prof. Muhammad Yunus's global movement for zero carbon, zero poverty and zero unemployment, aligned with the UN SDGs
-
-## Selected Certifications
-
-MIKE 21 FM 2D Hydrodynamic Modelling (DHI Academy) · Responsible Business Conduct School (ILO and University of Dhaka) · Humanitarian WASH Coordination (UNICEF Agora) · Project DPro Essentials (PM4NGOs) · Managing Successful Field Research (World Bank IED) · Key Concepts of Project Management, PMBOK and PRINCE2 (IEB) · Practical Application of Generative AI for Project Managers (PMI)
-
-## Memberships and Awards
-
-American Society of Civil Engineers (ASCE) Student Member · American Concrete Institute (ACI) Student Member · Honorable Mention, ASCE Daniel W. Mead Prize 2022 (engineering ethics essay) · Runner-Up, Intra-CUET Eco Concrete Competition (fly-ash and silica-fume mix, 2.8x service life, 15.6% lower LCA impact)
-
-## Get in Touch
-
-I am open to:
-
-- **Graduate research positions** (PhD, MASc) in climate-resilient water infrastructure, hydrological machine learning, drinking-water source-quality forecasting, PFAS occurrence modelling, and satellite environmental monitoring
-- **Consultancy engagements** on water-infrastructure feasibility and delivery, tender preparation, WASH programme design, geospatial siting analysis, and salinity or water-quality forecasting across Bangladesh and South Asia
-- **Research collaborations** on humanitarian WASH, decentralised water treatment, community-based anticipatory action, and last-mile early-warning programmes
-- **Peer review, co-authorship and guest lectures** on hydrological ML, remote sensing and coastal water infrastructure
-
-Contact:
-
-- Email: naimul.islam.bangladesh@gmail.com
-- LinkedIn: [linkedin.com/in/naimul-islam-bd](https://www.linkedin.com/in/naimul-islam-bd)
-- Phone: +880 1771 707038
+I am especially interested in joining a research group where I can contribute as a **research assistant while developing toward PhD-level research**.
 
 ---
 
-*This README is a living document, updated as repositories from the publication pipeline come online.*
+# Research Projects
+
+## 1. Flash-Flood Anticipatory Action in Sylhet, Bangladesh
+
+**Rainfall trigger thresholds for flash-flood anticipatory action**
+
+[Repository](https://github.com/Naimul-islam-bd/sylhet_flash_flood_aa)
+
+This is my most developed work on hydrologic extremes and decision support.
+
+I am studying whether rainfall accumulation can provide useful triggers for anticipatory action before flash floods in Sylhet. The analysis brings together long-term **CHIRPS and ERA5-Land rainfall records**, satellite flood mapping, exposure data, and event-based forecast verification.
+
+The pipeline derives rainfall thresholds across different accumulation windows and seasons, then evaluates them using **POD, FAR, CSI, HSS, ETS and ROC/AUC**. Because rainfall and flood events are temporally dependent, the uncertainty analysis uses **block bootstrap confidence intervals** rather than treating every observation as independent.
+
+The current manuscript also includes exposure and benefit-cost analysis, so the research moves from:
+
+**rainfall → flood occurrence → forecast skill → exposed population → anticipatory action**
+
+The repository contains a structured Python package, CLI pipeline stages, Google Earth Engine scripts, tests, manuscript materials, and reproducible outputs.
+
+**What I learned from this project:** a useful forecast is not simply the model with the highest score. The threshold has to be interpretable, uncertainty has to be understood, and the result has to make sense for the decision that follows.
+
+---
+
+## 2. PFAS Occurrence in U.S. Drinking Water
+
+**National-scale modelling of PFAS detection using UCMR5**
+
+[Repository](https://github.com/Naimul-islam-bd/pfas-source-decoupling)
+
+This project asks a more specific question than simply predicting PFAS:
+
+> **Does proximity to local PFAS-relevant point sources add meaningful predictive information once broader water-system and regional structure is taken into account?**
+
+The analysis uses the U.S. EPA **UCMR5** dataset together with facility and public-water-system information.
+
+I built a modelling pipeline covering data cleaning, geolocation, facility-grade coordinate matching, source-distance and source-density features, feature assembly, XGBoost modelling, SHAP interpretation, and robustness analysis.
+
+A major part of the work is validation. Ordinary random cross-validation can leak information between neighbouring water systems, so the analysis uses **spatially blocked and public-water-system-grouped validation**, including repeated 5-fold evaluation.
+
+The result is not framed as “sources do not matter.” The narrower finding is that **nearest local point-source proximity adds relatively little predictive information beyond broader covariates in the tested framework**.
+
+That distinction matters to me. I am interested in environmental ML where the modelling question is tied closely to the scientific question, and where the validation design can change the conclusion.
+
+---
+
+## 3. Salinity Dynamics in Southwest Bangladesh
+
+**Remote sensing, cyclone impacts and Random Forest projection**
+
+[Repository](https://github.com/Naimul-islam-bd/salinity-dynamics-bangladesh-2050)
+
+This project focuses on **Khulna, Satkhira and Bagerhat**, where salinity is closely connected to coastal livelihoods, agriculture and water security.
+
+I built a long-term Landsat-based workflow using **Google Earth Engine** to reconstruct surface salinity dynamics through an NDSI-based approach. The project combines the satellite time series with field electrical-conductivity measurements, cyclone-event analysis, seasonal anomaly detection, and Random Forest modelling.
+
+The current analysis includes **667 cloud-free Landsat observations** and a field-validation dataset of **162 measurements**. The repository reports a Random Forest performance of approximately **R² = 0.496** and a projected domain-mean increase through 2050 under continuation of the observed regime.
+
+One result that particularly interests me is the seasonal behaviour: the analysis identifies a **late-monsoon/August anomaly** that does not fit neatly into the common dry-season-only picture of salinity.
+
+The project has pushed me toward a broader research interest in how **remote sensing, field measurements and statistical learning can be combined to understand environmental change in data-limited delta regions**.
+
+---
+
+## 4. Climate-Resilient Solar PV Siting in Bangladesh
+
+**Geospatial Multi-Criteria Decision Analysis**
+
+[Repository](https://github.com/Naimul-islam-bd/solar-pv-mcda-bangladesh)
+
+This project looks at infrastructure planning from a spatial-risk perspective.
+
+I developed a Python-based geospatial MCDA workflow combining **flood hazard, cyclone exposure, road-network accessibility and solar-resource information** to identify candidate locations for utility-scale solar PV deployment in Bangladesh.
+
+The workflow uses **GeoPandas, Shapely and Rasterio**, with projected-coordinate processing for distance and area calculations.
+
+Two accessibility scenarios are implemented: a stricter 1 km road-buffer scenario and a broader 3 km scenario. The repository reports 688 sites under the strict scenario and 6,777 under the relaxed scenario.
+
+The important idea for me is not the site count itself. It is the structure of the decision problem: infrastructure should not be planned from resource availability alone when **flood and cyclone risk can change the long-term suitability of a site**.
+
+---
+
+## 5. Drinking-Water Source Quality Forecasting
+
+**PyTorch LSTM using USGS NWIS data**
+
+[Repository](https://github.com/Naimul-islam-bd/drinking-water-quality-lstm)
+
+This is a smaller project, but it helped me think more carefully about what makes an environmental ML result trustworthy.
+
+I used public **USGS NWIS** data from the Cedar River and built a multi-step LSTM forecasting pipeline for turbidity, dissolved oxygen and specific conductance.
+
+The workflow includes chronological train/validation/test splitting, short-gap handling, training-only feature scaling, sliding-window sequence construction, PyTorch LSTM training, early stopping, comparison with persistence, climatology and seasonal-naive baselines, and RMSE, MAE, NSE and KGE evaluation.
+
+For turbidity, the LSTM achieves an NSE of about **0.31**, compared with about **0.06 for persistence** on the reported test period.
+
+But the model does not win everywhere. Dissolved oxygen is effectively tied with persistence, and specific conductance remains difficult to forecast.
+
+I kept those results in the repository because I think that is an important part of research: **a model failing on one variable can be more informative than a polished claim that it works for everything.**
+
+---
+
+# Research in Progress
+
+## Physics-Constrained Transformer for Extreme Flood Peaks
+
+[Repository](https://github.com/Naimul-islam-bd/pc-former-flood-forecasting)
+
+I am developing this project around a limitation I find important in hydrologic ML: models can perform well within the range represented in the training data while struggling with events beyond that range.
+
+The planned framework combines a **Transformer architecture**, a water-balance constraint, an extreme-event-focused loss, and uncertainty estimation.
+
+The current repository is still in the early development stage. The immediate work is establishing the baseline experiments before moving to the proposed architecture.
+
+The longer-term question is:
+
+> **Can physical constraints and a different sequence architecture improve extrapolation to extreme flood peaks rather than simply improve average prediction?**
+
+---
+
+## Southwest Bangladesh Salinity to 2100
+
+[Repository](https://github.com/Naimul-islam-bd/sw-bangladesh-salinity-2100)
+
+This is the longer-term extension of my coastal salinity work.
+
+The planned framework combines remote sensing with **LSTM temporal modelling and XGBoost spatial modelling**, conditioned on **CMIP6 climate scenarios, IPCC AR6 sea-level rise and storm-surge events**.
+
+The project is currently in development. I am treating it as a research framework rather than presenting the final 2100 projections as completed results.
+
+The aim is to move from describing historical salinity change toward understanding how **compound climate drivers may reshape the spatial distribution of salinity across the southwest coastal zone**.
+
+---
+
+# Why Water Resources?
+
+My engineering background is in civil and water resources engineering, but working on real water projects has made the research questions more concrete.
+
+In practice, I have worked around coastal water infrastructure, WASH systems, reverse-osmosis treatment, solar-powered water systems, field operations and infrastructure planning in climate-vulnerable areas of Bangladesh.
+
+That experience changed how I look at modelling.
+
+A rainfall threshold is not only a statistical threshold if someone has to act on it.
+
+A salinity map is not only a raster if communities depend on the water represented by that raster.
+
+A water-quality forecast is not only an ML benchmark if a treatment operator has to decide what to do with the forecast.
+
+This is the direction I want to take further through graduate research: **connecting environmental modelling with the decisions that the modelling is supposed to support.**
+
+---
+
+# Methods & Tools
+
+### Programming & Data Science
+`Python` · `NumPy` · `pandas` · `SciPy` · `xarray` · `Jupyter`
+
+### Machine Learning
+`PyTorch` · `scikit-learn` · `XGBoost` · `LSTM` · `Random Forest` · `SHAP`
+
+### Geospatial & Remote Sensing
+`GeoPandas` · `Shapely` · `Rasterio` · `Google Earth Engine` · `ArcGIS` · `QGIS`
+
+### Hydrology & Environmental Data
+`CAMELS-US` · `USGS NWIS` · `ERA5-Land` · `CHIRPS` · `GloFAS` · `CMIP6` · `Sentinel-1` · `Landsat`
+
+### Hydrological / Hydraulic Modelling
+`MIKE 21 FM` · `TUFLOW` · `HEC-HMS` · `Aquaveo SMS`
+
+### Water Engineering
+Reverse osmosis · desalination · solar-powered water systems · drinking-water treatment · WASH infrastructure
+
+---
+
+# What I Am Looking For
+
+I am preparing for **PhD and research-assistant opportunities** where I can contribute to ongoing work in:
+
+- hydrologic machine learning
+- flood forecasting and extreme-event prediction
+- climate risk and water resources
+- drinking-water quality
+- environmental data science
+- coastal hydrology and salinity
+- remote sensing for water and environmental systems
+- physics-informed / physics-constrained machine learning
+- early warning and decision-support systems
+
+I am particularly interested in research groups where a graduate student is expected to do more than run models — to work with **data, assumptions, validation, uncertainty, code, and the physical meaning of the result**.
+
+I would be glad to contribute to an existing project as a research assistant and grow that work into a PhD research direction.
+
+---
+
+# Selected Publication
+
+**Islam, N.** (2023). *Estimation of Changes in Ecosystem Service Values for a Mega Project of Nuclear Power Plant in Bangladesh.* 9th International Conference on Water and Flood Management (ICWFM), BUET.
+
+---
+
+# Current Focus
+
+Right now, I am working toward a research profile that connects three things:
+
+**Water systems**  
+**Computational methods**  
+**Real-world climate risk**
+
+The problems I want to work on are large enough to matter, but specific enough to test properly.
+
+If your group works on hydrology, water quality, climate risk, environmental machine learning, or related water-resources problems, I would be interested in learning about the questions your lab is currently trying to solve.
+
+---
+
+# Contact
+
+**Naimul Islam**  
+Civil & Water Resources Engineer  
+Dhaka, Bangladesh
+
+Email: naimul.islam.bangladesh@gmail.com
+
+[LinkedIn](https://www.linkedin.com/in/naimul-islam-bd) · [ORCID](https://orcid.org/0009-0002-3442-8980) · [GitHub](https://github.com/Naimul-islam-bd)
+
+---
+
+*This profile is a living research portfolio. Repositories are updated as analyses, manuscripts and experiments progress.*
